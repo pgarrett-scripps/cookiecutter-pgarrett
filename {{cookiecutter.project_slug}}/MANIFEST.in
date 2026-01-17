@@ -1,7 +1,10 @@
 include HISTORY.md
 include README.md
+include .gitignore
 
 recursive-include tests *
+recursive-include .github *
+
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]
 
